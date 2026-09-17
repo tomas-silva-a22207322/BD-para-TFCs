@@ -92,32 +92,6 @@ O projeto inclui ainda a utilização de diferentes mecanismos de programação 
 
 ---
 
-## 📂 Estrutura do Projeto
-
-```text
-📦 Projeto-Bases-de-Dados
- ├── 📄 README.md
- ├── 📁 Etapa 1
- │   └── 📄 script.sql
- ├── 📁 Etapa 2
- │   └── 📄 script.sql
- ├── 📁 Etapa 3
- │   └── 📄 script.sql
- └── 📁 Dados
-     ├── Tfc.csv
-     ├── Inscrição.csv
-     ├── Aluno.csv
-     ├── Grupo.csv
-     ├── ProfessorDEISI.csv
-     ├── ProfessorNDEISI.csv
-     ├── AvaliacaoDisciplinaAluno.csv
-     └── ...
-```
-
-> A estrutura apresentada pode ser ajustada de acordo com a organização final dos ficheiros no repositório.
-
----
-
 ## 🏗️ Etapas do Projeto
 
 ### 1️⃣ Etapa 1 — Estrutura e tratamento dos dados
@@ -151,27 +125,6 @@ O projeto inclui ainda a utilização de diferentes mecanismos de programação 
 
 ---
 
-## 📊 Modelo de Dados
-
-O modelo representa as principais entidades envolvidas no processo de gestão de TFC e as suas relações, incluindo:
-
-```text
-Aluno ──────── Inscrição ──────── TFC
-  │                                  │
-  │                                  ├── Orientador
-  │                                  ├── Coorientador
-  │                                  ├── Tecnologia
-  │                                  └── Disciplina
-  │
-  └── Grupo
-
-Aluno ───── Avaliação ───── Disciplina
-
-TFC ───── Histórico de alterações
-```
-
----
-
 ## 💡 Regras de Negócio
 
 Entre as principais regras consideradas encontram-se:
@@ -191,9 +144,8 @@ Entre as principais regras consideradas encontram-se:
 ## 🛠️ Tecnologias
 
 * **SQL**
-* **MySQL / MariaDB**
-* **DBeaver**
-* **CSV**
+* **Docker**
+* **Azure**
 
 ---
 
@@ -206,12 +158,3 @@ Unidade Curricular: **Bases de Dados**
 Projeto desenvolvido como trabalho prático de avaliação contínua.
 
 ---
-
-## 👥 Autores
-
-* **João Caldeira**
-* **Luís Alexandre Gomes**
-
----
-
-> 📌 Projeto académico desenvolvido para aplicar conceitos de modelação, normalização, integridade e programação de bases de dados através de um caso de utilização relacionado com a gestão de Trabalhos Finais de Curso.
